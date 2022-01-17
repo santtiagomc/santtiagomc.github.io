@@ -28,7 +28,7 @@ ul {
 }
 .nav-item {
     font-size: var(--lg);
-    margin: 28px 20px;
+    margin: 40px 20px;
 }
 .nav-item a {
     text-decoration: none;
@@ -76,6 +76,22 @@ article {
     color: #ffffff;
     border-radius: 10px;
     padding: 10px;
+}
+#redes {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+#redes a{
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+a:hover{
+    box-shadow: 0 8px 10px #ff96ad;
+    top: -5px;
+    left: -5px;
 }
 @media (max-width: 500px) {
     #article-p {
