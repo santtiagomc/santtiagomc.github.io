@@ -81,13 +81,29 @@ article {
     #article-p {
         height: 480px;
     }
-    #section-article {
-        height: 200px;
+    #section-article, #header-article, #footer-article {
+        margin: 16px 0px;
     }
     .nav-item {
         margin: 12px;
     }
     .nav-item a {
         padding: 3px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #container2 {
+        margin: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    #article-p {
+        height: 52vh;
+    }
+    #header-article {
+        margin-top: 100px;
     }
 }
