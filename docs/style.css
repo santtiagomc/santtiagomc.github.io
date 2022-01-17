@@ -30,12 +30,18 @@ ul {
     font-size: var(--lg);
     margin: 40px 20px;
 }
+.nav-item a:hover {
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #b010e0;
+    top: -5px;
+    left: -5px;
+}
 .nav-item a {
     text-decoration: none;
     background: linear-gradient(90deg, rgb(123, 91, 199) 0%, rgb(234, 56, 141) 100%);
     color: #ffffff;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 8px;
 }
 #container2 {
@@ -58,7 +64,7 @@ article {
     border-radius: 10px;
 }
 #section-article, #footer-article, #header-article {
-    margin-top: 32px;
+    margin-top: 20px;
     background: linear-gradient(90deg, rgb(123, 91, 199) 0%, rgb(234, 56, 141) 100%);
     color: #ffffff;
     font-size: var(--lg);
@@ -74,7 +80,8 @@ article {
     font-size: var(--lg);
     color: #ffffff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 24px 0 20px;
+    border: 2px dotted #830699;
 }
 #redes {
     display: flex;
