@@ -45,7 +45,7 @@ ul {
     padding: 8px;
 }
 #container2 {
-    margin: 20px 40px 40px 140px;
+    margin: 20px 40px 40px 0px;
     margin-top: 20px;
     margin-bottom: 40px;
     display: flex;
@@ -59,7 +59,7 @@ article {
     background: #000000;
     margin-top: 5px;
     height: 40vh;
-    width: 80vw;
+    width: 60vw;
     font-size: var(--md);
     border-radius: 10px;
 }
@@ -68,7 +68,7 @@ article {
     background: linear-gradient(90deg, rgb(123, 91, 199) 0%, rgb(234, 56, 141) 100%);
     color: #ffffff;
     font-size: var(--lg);
-    width: 80vw;
+    width: 60vw;
     border-radius: 10px;
     padding: 0 8px;
 }
