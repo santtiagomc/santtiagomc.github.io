@@ -105,11 +105,9 @@ img:hover{
     left: -5px;
 }
 @media (max-width: 500px) {
-    #article-p {
-        height: 480px;
-    }
     #section-article, #header-article, #footer-article {
         margin: 16px 0px;
+        width: 88vw;
     }
     .nav-item {
         margin: 12px;
@@ -128,7 +126,8 @@ img:hover{
         justify-content: center;
     }
     #article-p {
-        height: 60vh;
+        height: 48vh;
+        width: 88vw;
     }
     #header-article {
         margin-top: 100px;
