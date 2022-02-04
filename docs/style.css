@@ -116,10 +116,13 @@ img:hover{
         width: 88vw;
     }
     .nav-item {
-        margin: 12px;
+        margin: 16px 28px;
+        list-style: none;
+        width: 28px;
+        padding: 4px;
     }
     .nav-item a {
-        padding: 3px;
+        padding: 4px;
     }
 
     ul {
@@ -127,7 +130,7 @@ img:hover{
         flex-wrap: wrap;
     }
     #container2 {
-        margin: 24px;
+        margin: 20px;
         display: flex;
         justify-content: center;
     }
