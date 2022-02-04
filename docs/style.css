@@ -28,7 +28,7 @@ ul {
 }
 .nav-item {
     font-size: var(--lg);
-    margin: 40px 20px;
+    margin: 40px 20px;;
 }
 .nav-item a:hover {
     border-radius: 20px;
@@ -36,13 +36,17 @@ ul {
     top: -5px;
     left: -5px;
 }
+nav ul li {
+   width: 5px; 
+   height: 5px;
+}
 .nav-item a {
     text-decoration: none;
     background: linear-gradient(90deg, rgb(123, 91, 199) 0%, rgb(234, 56, 141) 100%);
     color: #ffffff;
-    font-weight: bold;
     border-radius: 20px;
-    padding: 8px;
+    padding: 6px;
+    font-size: 16px;
 }
 #container2 {
     margin: 20px 40px 40px 0px;
@@ -55,10 +59,11 @@ article {
     align-content: center;
 }
 #article-p {
+    columns: auto 2;
     color: #ffffff;
     background: #000000;
     margin-top: 5px;
-    height: 50vh;
+    height: 40vh;
     width: 60vw;
     font-size: var(--md);
     border-radius: 10px;
